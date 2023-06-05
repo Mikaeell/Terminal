@@ -249,6 +249,8 @@ public class Leave extends javax.swing.JFrame {
             this.jdcDate.cleanup();
             this.txtEmpID.setText("");
             this.txtEmpID.requestFocus();
+            
+            
 
             showMessageDialog(null, empID +" "+Type+ " leave applied");
         }
@@ -327,6 +329,9 @@ public class Leave extends javax.swing.JFrame {
             lblEmergency.setText(Integer.toString(Ecounter));
             lblSick.setText(Integer.toString(Scounter));
             lblVacation.setText(Integer.toString(Vcounter));
+            
+            
+            
             
         }
         catch (Exception e) {

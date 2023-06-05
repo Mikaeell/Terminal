@@ -553,6 +553,25 @@ public class CsvTableForm extends javax.swing.JFrame {
     private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
         // TODO add your handling code here:
         
+        txtLname.setText("");
+        txtFname.setText("");
+        txtBirthday.setText("");
+        txtPhone.setText("");
+        txtSss.setText("");
+        txtPhilhealth.setText("");
+        txtTin.setText("");
+        txtPagibig.setText("");
+        txtBasic.setText("");
+        txtRice.setText("");
+        txtPhoneAllow.setText("");
+        txtClothing.setText("");
+        txaAddress.setText("");
+        txtStatus.setText("");
+        txtPosition.setText("");
+        txtSupervisor.setText("");
+        txtMonthly.setText("");
+        txtHourly.setText("");
+        
         int selectedRow = jTable1.getSelectedRow();
         if (selectedRow >= 0) {
             int option = confirmDelete();

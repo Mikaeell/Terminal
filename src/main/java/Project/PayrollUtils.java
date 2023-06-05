@@ -47,7 +47,7 @@ public class PayrollUtils {
             // for every iteration check salary range
             if(basic >= i && basic < i+500){
                 // we're inside that means we satisfy the salary range
-                // save the rateso we can return it, then exit the loop 
+                // save the rate so we can return it, then exit the loop 
                 charge = rate;
                 break;
             }
